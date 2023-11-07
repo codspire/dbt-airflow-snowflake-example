@@ -1,0 +1,8 @@
+version: 2
+
+macros:
+  - name: generate_schema
+    description: A macro to replicate folder schema in Snowflake
+
+  - name: set_query_tag
+    description: A macro to set query tag in Snowflake
