@@ -1,7 +1,7 @@
 Overview
 ========
 
-In this project, we leverage the synergy of Apache Airflow, DBT, and Snowflake to construct a data pipeline. Our objective is to import raw data into Snowflake, apply DBT transformations, and furnish clean, analysis-ready datasets for Power BI visualization. This undertaking showcases the seamless integration and cooperation of these cutting-edge data engineering technologies. We use a Maven Analytics sample dataset, comprising two CSV files, featuring churn customer data from a fictional telecom firm. The primary CSV file contains 38 columns encompassing personal, contractual, and revenue details of 7,043 California-based customers. The second CSV file includes zip code and population information.
+In this project, we leverage the synergy of Apache Airflow, DBT, and Snowflake to construct a data pipeline. Our objective is to import raw data into Snowflake, apply DBT transformations, and furnish clean, analysis-ready datasets for BI Tools visualization. This undertaking showcases the seamless integration and cooperation of these cutting-edge data engineering technologies. We use a Maven Analytics sample dataset, comprising two CSV files, featuring churn customer data from a fictional telecom firm. The primary CSV file contains 38 columns encompassing personal, contractual, and revenue details of 7,043 California-based customers. The second CSV file includes zip code and population information.
 
 Created by Guillermo Parlade and Josep Sugrañes
 
