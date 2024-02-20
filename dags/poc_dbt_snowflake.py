@@ -16,7 +16,7 @@ profile_config = ProfileConfig(profile_name="default",
 
 with DAG(
     dag_id="poc_dbt_snowflake",
-    start_date=datetime(2024, 2, 15),
+    start_date=datetime(2023, 10, 30),
     schedule_interval="@daily",
 ):
 
