@@ -1,23 +1,21 @@
 ## Credits
 ---
 
-This is a fork of https://github.com/ClearPeaks/poc-dbt-airflow-snowflake
+This project is forked from https://github.com/ClearPeaks/poc-dbt-airflow-snowflake
+
 https://www.clearpeaks.com/orchestrating-dbt-on-snowflake-using-airflow-and-astro/
 
 ## Overview
----
 
 This project shows a simple example of Apache Airflow, DBT, and Snowflake to construct a data pipeline. The objective is to import raw data into Snowflake, apply DBT transformations, and furnish clean, analysis-ready datasets for BI Tools visualization.
 
 ## Sample Dataset
----
 
 We use a Maven Analytics sample dataset, comprising two CSV files, featuring churn customer data from a fictional telecom firm. The primary CSV file contains 38 columns encompassing personal, contractual, and revenue details of 7,043 California-based customers. The second CSV file includes zip code and population information.
 
 https://mavenanalytics.io/data-playground
 
 ## Project Contents
----
 
 The project contains the following files and folders:
 
@@ -32,7 +30,6 @@ The project contains the following files and folders:
 
 
 ## Snowflake Setup
----
 
 Login as `ACCOUNTADMIN` in your Snowflake account and perform below steps:
 
@@ -62,7 +59,6 @@ This will create create below resources in Snowflake
 
 
 ## Deploy Your Project Locally
----
 
 1. Start Airflow on your local machine. Astro installation instructions https://www.astronomer.io/docs/astro/cli/install-cli
 
