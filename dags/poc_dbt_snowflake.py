@@ -9,15 +9,16 @@ profile_config = ProfileConfig(profile_name="default",
                                target_name="dev",
                                profile_mapping=SnowflakeUserPasswordProfileMapping(conn_id="snowflake_conn", 
                                                     profile_args={
-                                                        "database": "POC_DBT_AIRFLOW",
+                                                        "database": "POC_DBT_AIRFLOW_DB",
                                                         "schema": "BRONZE"
                                                         },
                                                     ))
 
 with DAG(
-    dag_id="poc_dbt_snowflake",
-    start_date=datetime(2023, 10, 30),
-    schedule_interval="@daily",
+    dag_id="poc_dbt_snowflake"
+#     ,
+#     start_date=datetime(2023, 10, 30),
+#     schedule_interval="@daily",
 ):
 
     e1 = EmptyOperator(task_id="pre_dbt")
