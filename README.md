@@ -1,5 +1,4 @@
 ## Credits
----
 
 This project is forked from https://github.com/ClearPeaks/poc-dbt-airflow-snowflake
 
